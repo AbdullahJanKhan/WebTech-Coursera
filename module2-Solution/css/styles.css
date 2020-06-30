@@ -1,0 +1,123 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+}
+
+#p_title1{
+    width: 25%;
+    float: right;
+    position: relative;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    padding: 5px;
+    padding-right: auto;
+    padding-left: auto;
+    background-color: palevioletred;
+    /* color: white; */
+    font-size: 125%;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    text-align: center;
+}
+
+#p_title2{
+    width: 25%;
+    float: right;
+    position: relative;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    padding: 5px;
+    padding-right: auto;
+    padding-left: auto;
+    background-color: brown;
+    color: white;
+    font-size: 125%;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    text-align: center;
+}
+
+#p_title3{
+    width: 25%;
+    float: right;
+    position: relative;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    padding: 5px;
+    padding-right: auto;
+    padding-left: auto;
+    background-color: palegoldenrod;
+    /* color: white; */
+    font-size: 125%;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    text-align: center;
+}
+
+
+.p_menu_detail{
+    margin-top: 45px;
+}
+
+.div_outer{
+    border: 2px solid black;
+    background-color: darkgrey;
+
+}
+
+.floatRight{
+    float: right;
+}
+
+h1{
+    font-size: 175%;
+    text-align: center;
+}
+
+.row{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: auto;
+    padding-right: auto;
+}
+
+@media (min-width: 992px) {
+    
+    .col-lg-4 {
+        margin-top: 0.2%;
+        margin-left: 0.2%;
+        float: left;
+        width: 33%;
+    }
+  }
+  
+  /********** Medium devices only **********/
+@media (min-width: 768px ) and (max-width: 991px) {
+    .col-md-6 {
+        margin-top: 0.1%;
+        margin-left: 0.1%;
+        float: left;
+        width: 49.5%;
+    }
+    .col-md-12 {
+        margin-top: 0.1%;
+        margin-left: 0.1%;
+        float: left;
+        width: 99%;
+    }
+  }
+
+  /********** Mobile devices only **********/
+  @media (max-width: 767px) {
+    .col-sm-12 {
+        margin-top: 0.2%;
+        margin-left: 0.2%;
+        float: left;
+        width: 99%;
+    }
+  }
